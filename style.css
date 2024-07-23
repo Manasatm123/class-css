@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 50vw;
+    height: 30vh;
+    background-color: aquamarine;
+    border: 1px solid black;
+    display: grid;
+    margin: auto;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    /* grid-template-columns:auto auto auto ; */
+    /* grid-template-columns: repeat(2,1fr); */
+    grid-template-columns: 200px 200px 200px;
+
+    justify-content: center;
+    /* justify-content: end; */
+    /* justify-content: start; */
+
+
+    /* column-gap: 2rem; */
+    /* row-gap: 2rem; */
+    gap: 2rem;
+    
+}
+
+
+
+
+.box{
+    background-color: greenyellow;
+    border: 1px solid black;
+    text-align: center;
+    justify-content: center;
+    
+}
