@@ -1,0 +1,34 @@
+/* :root{
+    --primary-color: blue;
+    --secondary-color : red;
+    --danger-color: black;
+    --maxw:50vw;
+
+}
+
+.box1{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    width: var(--maxw);
+} */
+
+
+/*div direct child*/
+div > p{
+    color: goldenrod;
+}
+
+
+div ul li p{
+    color: green;
+}
+
+/*all siblings of div*/
+div ~ p{
+    color: blueviolet;
+}
+
+/*first sibling of div*/
+div + p{
+    color: brown;
+}
